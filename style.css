@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 600px;
+  font-family: "Robotolight", sans-serif;
+  color: #343b53;
+  line-height: 1.4;
+}
+
+.container {
+  width: 90%;
+}
+
+hr {
+  margin: 5% 0;
+  opacity: 0.5;
+}
+
+.container hr {
+  width: 110%;
+  margin-left: -5%;
+}
+
+.header-container {
+  padding-top: 20px;
+  width: 90%;
+}
+
+/* .hero {
+  margin: 20px 0;
+} */
+
+/* .hero-image img {
+    width: 100%;
+  } */
+.hero-image {
+  background-image: url("https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-eMail-HV2-D-508x285.jpg");
+  background-repeat: no-repeat;
+  height: 33vh;
+  width: 100%;
+  background-size: contain;
+}
+
+.hero-btn {
+  background: #ffc94c;
+  padding: 2%;
+  width: 40%;
+  text-align: center;
+  margin: 3% 0 0 0;
+}
+
+.hero-btn a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #343b53;
+}
+
+.banners-wrapper {
+  display: flex;
+  /* padding: 20px 0; */
+}
+
+.banner-image img {
+  height: 100%;
+  width: 90%;
+}
+
+.banner-description a {
+  text-decoration: none;
+  color: #3662d8;
+  margin: 3% 0;
+}
+
+.banner-link {
+  margin: 5% 0;
+}
+
+.download-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  padding: 3% 0;
+}
+
+.download-text {
+  margin-bottom: 1%;
+}
+
+.download-btns {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.app-store {
+  width: 37%;
+}
+
+footer {
+  margin: 5% 0;
+}
+
+.bottom-nav-menu {
+  margin-top: 2%;
+}
+
+.nav-items {
+  font-size: 12px;
+  list-style-type: none;
+  /* display: inline-block; */
+  /* margin: 0 auto; */
+  width: 90%;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  /* border: 1px solid; */
+  border-right: 1px solid;
+  /* margin: 0 0%; */
+  padding: 0 1.5%;
+  text-decoration: underline;
+}
+
+.menu-item:last-child {
+  border: none;
+}
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    text-align: center;
+  }
+
+  .hero-image {
+    background-image: url("https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-eMail-HV2-M-256x341.jpg");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .hero-btn {
+    width: auto;
+    border-radius: 20px;
+  }
+
+  .banners-wrapper {
+    flex-direction: column;
+  }
+
+  .banner-image img {
+    width: 100%;
+  }
+
+  .banner-description h2 {
+    margin: 2% 0;
+  }
+
+  .banner-link {
+    margin: 2% 0;
+  }
+
+  .container hr {
+    width: 100%;
+    margin-left: 0;
+  }
+}
